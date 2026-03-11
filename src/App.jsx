@@ -1,14 +1,17 @@
 
 import './App.css'
+import Navbar from './Components/Navbar/Navbar'
+import StatusCards from './Components/Navbar/statusCard/StatusCard'
+import TicketCard from './Components/TicketCard/TicketCard'
 
 function App() {
   
 
   return (
     <>
-      
-      <h1>Vite + React</h1>
-      
+  <Navbar></Navbar>
+    <StatusCards></StatusCards>
+      <TicketCard></TicketCard>
     </>
   )
 }
